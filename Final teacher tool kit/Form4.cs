@@ -24,5 +24,12 @@ namespace Final_teacher_tool_kit
 
             textBox1.AppendText(studentName + "\r\n");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form1 Form1 = new Form1();
+            Form1.Show();
+            this.Hide();
+        }
     }
 }

@@ -51,5 +51,11 @@ namespace Final_teacher_tool_kit
         {
 
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Form7 form = new Form7();
+            form.Show();
+        }
     }
 }

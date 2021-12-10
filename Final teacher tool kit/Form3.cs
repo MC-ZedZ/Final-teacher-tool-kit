@@ -22,5 +22,12 @@ namespace Final_teacher_tool_kit
             Random rnd = new Random();
             textBox1.Text = rnd.Next(1, 7).ToString();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form1 Form1 = new Form1();
+            Form1.Show();
+            this.Hide();
+        }
     }
 }
